@@ -25,6 +25,10 @@ composer install
 ```bash
 php artisan migrate
 ```
+caso esse comando não funcione tente esse
+```bash
+php artisan migrate:refresh
+```
 
 ### 2 - Rodando o projeto
 Execute o comando abaixo na raíz do projeto
